@@ -1,10 +1,13 @@
 /**RESET**/
+
 * {
     margin: 0;
     padding: 0;
 }
 
+
 /**FONTS**/
+
 @font-face {
     font-family: "BrandonGrotesque-Black";
     src: url('../fonts/BrandonGrotesque-Black.eot');
@@ -12,6 +15,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Montserrat-Bold";
     src: url('../fonts/Montserrat-Bold.eot');
@@ -19,6 +23,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "NotoSans-Italic";
     src: url('../fonts/NotoSans-Italic.eot');
@@ -26,6 +31,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "NotoSans-Regular";
     src: url('../fonts/NotoSans-Regular.eot');
@@ -33,19 +39,69 @@
     font-weight: normal;
     font-style: normal;
 }
-
-body{
-    width:100%;
+/**BASIC**/
+body {
+    width: 100%;
 }
 
-header{
-    height:1080px;
+.center-bloc {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    height: 1040px;
+}
+
+header {
+    height: 1040px;
     background: url(../img/Header_Background.jpg) center no-repeat;
+    padding-top: 40px;
+}
+/** LOGO + BURGER **/
+#logo {
+    height: 90px;
+    width: 90px;
+    float: left;
 }
 
-header>h1{
+#burger {
+    width: 46px;
+    height: 46px;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+}
+
+.line {
+    width: 26px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 4px;
+    margin: 4px auto 0;
+}
+
+#burger>.line:first-child {
+    margin-top: 13px;
+}
+/** NAV **/
+header nav{
+    
+}
+header nav>ul{
+    list-style: none;
+}
+header nav>ul>li{
+    
+}
+/** HEADER CONTENT **/
+header h1 {
     font-family: BrandonGrotesque-Black;
     font-size: 90px;
-    width:660px;
+    width: 660px;
     margin: 0 auto;
+}
+
+header h2 {
+    font-family: NotoSans-Italic;
+    font-size: 34px;
+    text-align: center;
 }
