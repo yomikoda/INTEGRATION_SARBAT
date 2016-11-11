@@ -1,0 +1,51 @@
+/**RESET**/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**FONTS**/
+@font-face {
+    font-family: "BrandonGrotesque-Black";
+    src: url('../fonts/BrandonGrotesque-Black.eot');
+    src: local('☺'), url('../fonts/BrandonGrotesque-Black.woff') format('woff'), url('../fonts/BrandonGrotesque-Black.TTF') format('truetype'), url('../fonts/BrandonGrotesque-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: local('☺'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.TTF') format('truetype'), url('../fonts/Montserrat-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NotoSans-Italic";
+    src: url('../fonts/NotoSans-Italic.eot');
+    src: local('☺'), url('../fonts/NotoSans-Italic.woff') format('woff'), url('../fonts/NotoSans-Italic.TTF') format('truetype'), url('../fonts/NotoSans-Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NotoSans-Regular";
+    src: url('../fonts/NotoSans-Regular.eot');
+    src: local('☺'), url('../fonts/NotoSans-Regular.woff') format('woff'), url('../fonts/NotoSans-Regular.TTF') format('truetype'), url('../fonts/NotoSans-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    width:100%;
+}
+
+header{
+    height:1080px;
+    background: url(../img/Header_Background.jpg) center no-repeat;
+}
+
+header>h1{
+    font-family: BrandonGrotesque-Black;
+    font-size: 90px;
+    width:660px;
+    margin: 0 auto;
+}
