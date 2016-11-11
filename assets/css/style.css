@@ -208,13 +208,15 @@ main {
 /** Footer **/
 
 footer {
+    position: relative;
     height: 722px;
     width: 100%;
-    background-color: rebeccapurple;
+    background-color: black;
 }
 
 #social {
     height: 80px;
+    border-bottom: 1px solid #666;
 }
 
 #social>ul {
@@ -225,12 +227,15 @@ footer {
 #social>ul>li {
     height: 80px;
     width: 25%;
+    box-sizing: border-box;
     float: left;
     transition: all ease 1s;
     position: relative;
+    border-right:1px solid #666;
 }
 
 #social>ul>li:hover {
+    border:none;
     background: -webkit-linear-gradient(right, #ffcc00, #ff6600);
     background: -o-linear-gradient(right, #ffcc00, #ff6600);
     background: -moz-linear-gradient(right, #ffcc00, #ff6600);
@@ -244,4 +249,54 @@ footer {
     top:50%;
     margin-top:-15px;
     margin-left:-20px;
+}
+#footer-left,#footer-right{
+    width:585px;
+    float:left;
+}
+#footer-left h4{
+    font-family: Montserrat-bold;
+    color:white;
+    font-size: 26px;
+}
+#footer-left>h4{
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+#footer-left p{
+    color:#666;
+    font-family: NotoSans-Regular;
+    font-size: 14px;
+    line-height: 26px;
+}
+#footer-left>p:nth-child(2){
+    width:560px;
+    margin-bottom: 50px;
+}
+#reachus,#mailus{
+    float: left;
+    width:50%;
+}
+#reachus p,#mailus p{
+    width:225px;
+    margin-top: 15px;
+}
+
+#signature{
+    position: absolute;
+    bottom:0;
+    height:100px;
+    width:100%;
+    background: -webkit-linear-gradient(right, #ffcc00, #ff6600);
+    background: -o-linear-gradient(right, #ffcc00, #ff6600);
+    background: -moz-linear-gradient(right, #ffcc00, #ff6600);
+    background: linear-gradient(to right, #ffcc00, #ff6600);
+}
+#signature p{
+    text-align: center;
+    height:100px;
+    line-height: 100px;
+    font-family: NotoSans-Regular;
+    font-size: 14px;
+    color:white;
 }
