@@ -71,6 +71,8 @@ header {
     height: 90px;
     width: 90px;
     float: left;
+    position:absolute;
+    z-index: 80;   
 }
 
 #burger {
@@ -166,7 +168,7 @@ header {
 /** NAV **/
 
 #burgernav {
-    position: fixed;
+    position: absolute;
     top: -160px;
     height: 160px;
     width: 100%;
