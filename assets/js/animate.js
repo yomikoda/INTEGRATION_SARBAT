@@ -99,10 +99,7 @@ $(function(){
     if(valeurDuScroll>3000){
         $('#burger').css({'border':'2px solid white','background-color':'black'});
         $('.line').css('background-color','white'); 
-     }   
-         
-     });
-    
+     } 
    
     
     

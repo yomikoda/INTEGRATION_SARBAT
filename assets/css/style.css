@@ -729,11 +729,67 @@ header h2 {
 
 #skills {
     height: 1010px;
-    background-color: red;
+    padding-top:100px;
 }
-
-
-
+#skills>h2{
+    margin-bottom: 55px;
+}
+#load01,#load02,#load03,#load04{
+    width:150px;
+    height:150px;
+}
+.circlecontainer{
+    position: relative;
+    width:150px;
+    margin-bottom: 30px;
+}
+.minicircle{
+    height:20px;
+    width:20px;
+    background-color:white;
+    border-radius: 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin:-10px 0 0 -10px;
+}
+.indiskill{
+    width:260px;
+    float:left;
+    margin-right:43px;
+}
+.indiskill:last-child{
+    margin-right:0;
+}
+.stats{
+    position: relative;
+    height:50px;
+}
+.stats>h3,.stats>p{
+    float:left;
+}
+.stats>h3+p+p,.stats>h3+p{
+    float:right;
+}
+.stats>h3{
+    line-height: 70px;
+    height:70px;
+}
+.stats>h3+p+p{
+    font-family: Montserrat-Bold;
+    font-size: 72px;
+    height:70px;
+    color:white;
+    line-height: 40px;
+    display: inline-block;
+}
+.stats>h3+p{
+    font-family: NotoSans-Italic;
+    font-size: 26px;
+    height:70px;
+    line-height: 1px;
+}
+.center-block{}
 /** END OF SKILLS SECTION **/
 
 /** POSTS SECTION **/
