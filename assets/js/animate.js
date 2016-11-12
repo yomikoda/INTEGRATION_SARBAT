@@ -15,7 +15,7 @@ $(function(){
              $('#burger').css('border','2px solid white'); 
              $('#burgernav').css('top','0px');
              $('#whitelogo').fadeOut(400, function(){
-                $('#whitelogo').attr('src','../img/logo_white.png');
+                $('#whitelogo').attr('src','../assets/img/logo_white.png');
              })
              .fadeIn(400);      
          }
