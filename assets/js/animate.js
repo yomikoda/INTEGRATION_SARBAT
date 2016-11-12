@@ -21,6 +21,38 @@ $(function(){
          }
     });
          
+    /** SMOOTH SCROLL  NAV **/
+    
+     $('#burgernav>ul>li:first-child>a').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('header').offset().top-80},1000);
+        return false;
+    });
+    $('#burgernav>ul>li:nth-child(2)>a').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#services').offset().top-80},1500);
+        return false;
+    });
+    $('#burgernav>ul>li:nth-child(3)>a').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#work').offset().top-80},2000);
+        return false;
+    });
+    $('#burgernav>ul>li:nth-child(4)>a').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#clients').offset().top-80},2500);
+        return false;
+    });
+    $('#burgernav>ul>li:nth-child(5)>a').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#pricing').offset().top-80},3000);
+        return false;
+    });
+    $('#burgernav>ul>li:nth-child(6)>a').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#skills').offset().top-80},3500);
+        return false;
+    });
+    $('#burgernav>ul>li:nth-child(7)>a').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#posts').offset().top-80},4000);
+        return false;
+    });
+    
+    
     
     $(document).ready(function(){
         $('header h1').css({'opacity':'1','left':'50%'});
