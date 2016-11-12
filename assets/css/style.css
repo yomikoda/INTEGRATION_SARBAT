@@ -33,6 +33,14 @@
 }
 
 @font-face {
+    font-family: "NotoSans-Italic-Bold";
+    src: url('../fonts/NotoSans-Italic-Bold.eot');
+    src: local('☺'), url('../fonts/NotoSans-Italic-Bold.woff') format('woff'), url('../fonts/NotoSans-Italic-Bold.TTF') format('truetype'), url('../fonts/NotoSans-Italic-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "NotoSans-Regular";
     src: url('../fonts/NotoSans-Regular.eot');
     src: local('☺'), url('../fonts/NotoSans-Regular.woff') format('woff'), url('../fonts/NotoSans-Regular.TTF') format('truetype'), url('../fonts/NotoSans-Regular.svg') format('svg');
@@ -45,7 +53,7 @@
 
 body {
     width: 100%;
-    height: 7380px;
+    height: auto;
 }
 
 .center-block {
@@ -53,6 +61,12 @@ body {
     margin: 0 auto;
     position: relative;
 }
+
+main {
+    height: auto;
+    background-color: black;
+}
+
 
 header {
     height: 1040px;
@@ -82,12 +96,15 @@ h4 {
 h2 {
     font-size: 36px;
 }
-a{
+
+a {
     color: white;
     font-size: 14px;
     font-family: Montserrat-bold;
     text-decoration: none;
 }
+
+
 /** LOGO + BURGER **/
 
 #logo {
@@ -267,12 +284,6 @@ header h2 {
 }
 
 
-/** MAIN **/
-
-main {
-    height: 5580px;
-    background-color: black;
-}
 
 
 /**Services Section **/
@@ -463,135 +474,251 @@ main {
     clear: both;
     height: 50px;
     width: 970px;
-    margin:0 auto;
+    margin: 0 auto;
     background: -webkit-linear-gradient(right, #ffcc00, #ff6600);
     background: -o-linear-gradient(right, #ffcc00, #ff6600);
     background: -moz-linear-gradient(right, #ffcc00, #ff6600);
     background: linear-gradient(to right, #ffcc00, #ff6600);
 }
-#viewmore a{
+
+#viewmore a {
     display: block;
     text-align: center;
     line-height: 50px;
-    transition:all ease 1s;
+    transition: all ease 1s;
 }
-#viewmore a:hover{
-    color:black;
-    transition:all ease 1s;
+
+#viewmore a:hover {
+    color: black;
+    transition: all ease 1s;
 }
+
+
 /**HOW WE WORK PART **/
-#howwework{
+
+#howwework {
     margin-top: 130px;
 }
-#howwework>h2{
+
+#howwework>h2 {
     margin-bottom: 60px;
 }
-.method{
-    height:215px;
-    width:350px;
-    float:left;
-    margin-right:50px;
+
+.method {
+    height: 215px;
+    width: 350px;
+    float: left;
+    margin-right: 50px;
 }
-.method:last-child{
-    margin-right:0;
+
+.method:last-child {
+    margin-right: 0;
 }
-.number{
-    height:70px; 
-    border-width: 2px; 
+
+.number {
+    height: 70px;
+    border-width: 2px;
     border-style: solid;
     margin-bottom: 30px;
-    width:200px;
+    width: 200px;
     /** COME BACK WITH THE GRADIENT BORDER _ COME BACK TO IT LATER **/
-    -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ffcc00), to(#ff6600) )1 100%;
+    -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#ffcc00), to(#ff6600))1 100%;
     -webkit-border-image: -webkit-linear-gradient(right, #ffcc00, #ff6600) 1 100%;
     -moz-border-image: -moz-linear-gradient(right, #ffcc00, #ff6600) 1 100%;
     -o-border-image: -o-linear-gradient(right, #ffcc00, #ff6600) 1 100%;
-    border-image: linear-gradient(to right, #ffcc00, #ff6600) 1 100%; 
+    border-image: linear-gradient(to right, #ffcc00, #ff6600) 1 100%;
 }
-.number p{
+
+.number p {
     float: left;
 }
-.number p:first-child{
+
+.number p:first-child {
     font-family: Montserrat-Bold;
-    color:white;
+    color: white;
     font-size: 72px;
     line-height: 72px;
     display: inline-block;
-    height:70px;
+    height: 70px;
 }
-.number p+p{
-    font-family:NotoSans-Italic;
+
+.number p+p {
+    font-family: NotoSans-Italic;
     font-size: 26px;
     line-height: 35px;
 }
-.method div+div{
+
+.method div+div {
     clear: both;
 }
+
+
 /** END OF WORK SECTION **/
 
+
 /**CLIENTS SECTIONS **/
-#clients{
-    height:340px; 
-    padding-top:80px;
+
+#clients {
+    height: 340px;
+    padding-top: 80px;
     background: -webkit-linear-gradient(right, #ffcc00, #ff6600);
     background: -o-linear-gradient(right, #ffcc00, #ff6600);
     background: -moz-linear-gradient(right, #ffcc00, #ff6600);
     background: linear-gradient(to right, #ffcc00, #ff6600);
 }
-#clients h2{
-    margin-bottom:60px;
+
+#clients h2 {
+    margin-bottom: 60px;
 }
-#clientsnames div{
+
+#clientsnames div {
     float: left;
-    height:50px;
-    width:185px;
-    margin-right:135px;
-    margin-bottom:60px;
+    height: 50px;
+    width: 185px;
+    margin-right: 135px;
+    margin-bottom: 60px;
     position: relative;
 }
-#clientsnames div:nth-child(4),#clientsnames div:nth-child(8){
-    margin-right:0;
+
+#clientsnames div:nth-child(4),
+#clientsnames div:nth-child(8) {
+    margin-right: 0;
 }
-#clientsnames div>img{
+
+#clientsnames div>img {
     display: block;
-    position:absolute;
-    top:5%;   
+    position: absolute;
+    top: 5%;
 }
-#clientsnames div:hover>img{
-    cursor:pointer   
+
+#clientsnames div:hover>img {
+    cursor: pointer
 }
+
+
 /** ALIGNEMENT OF THE LOGOS LIKE ON THE MOCKUP - BASED ON THE SQUARES -_- **/
-#clientsnames div:first-child>img,#clientsnames div:nth-child(8)>img{
-    left:-12px;
+
+#clientsnames div:first-child>img,
+#clientsnames div:nth-child(8)>img {
+    left: -12px;
 }
-#clientsnames div:nth-child(3)>img{
-    left:-2px;
+
+#clientsnames div:nth-child(3)>img {
+    left: -2px;
 }
+
 
 /** END OF CLIENTS SECTION **/
 
+
 /** PLANS & PRICING **/
-#pricing{
-    height:820px;
-    padding-top:115px;
+
+#pricing {
+    height: 900px;
+    padding-top: 110px;
 }
-#pricing h2{
+
+#pricing h2 {
     margin-bottom: 60px;
 }
-.center-block{}
-.plan{
-    width:210px;
-    height:575px;
-    padding: 35px 30px 0px 30px;
-    border:2px solid #666;
-    float:left;
+
+.plan {
+    width: 210px;
+    height: 635px;
+    padding: 25px 30px 0px 30px;
+    border: 2px solid #666;
+    float: left;
 }
-#pricing>div{
-    margin-right:24px;
+
+#pricing>div {
+    margin-right: 24px;
 }
-#pricing>div:last-child{
-    margin-right:0;
+
+#pricing>div:last-child {
+    margin-right: 0;
 }
+
+.planname {
+    height: 145px;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.planname h4 {
+    margin-bottom: 30px;
+}
+
+.planname p,
+.planname p+p {
+    float: right;
+}
+
+.planname>p+p {
+    font-family: NotoSans-Italic;
+    font-size: 26px;
+    height: 50px;
+    line-height: 10px;
+}
+
+.planname>h4+p {
+    font-family: Montserrat-Bold;
+    font-size: 72px;
+    color: white;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.planspecs {
+    height: 400px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.planspecs p {
+    margin-bottom: 25px;
+}
+
+.planspecs em {
+    font-family: NotoSans-Italic-Bold;
+    color: white;
+}
+
+.plan a {
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    line-height: 21px;
+    margin: 0 auto;
+    transition: all ease 1s;
+}
+
+.plan a:hover {
+    color: #ff6600;
+}
+
+
+/** END OF PRICING SECTION **/
+
+
+/** SKILLS SECTION **/
+
+#skills {
+    height: 1010px;
+    background-color: red;
+}
+
+
+
+/** END OF SKILLS SECTION **/
+
+/** POSTS SECTION **/
+#posts{
+    height:580px;
+    background-color:dodgerblue;
+}
+
 /** Footer **/
 
 footer {
@@ -731,4 +858,3 @@ input[type="submit"]:hover {
     font-size: 14px;
     color: white;
 }
-
