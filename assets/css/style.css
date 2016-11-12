@@ -235,13 +235,21 @@ a {
 #burgernav>ul>li {
     float: left;
     width:115px;
+    height:50px;
+    line-height: 50px;
 }
 
 #burgernav>ul>li>a{
     display: block;
     text-align: center;
 }
-
+#burgernav>ul>li>a:hover{
+    background: -webkit-linear-gradient(right, #ffcc00, #ff6600);
+    background: -o-linear-gradient(right, #ffcc00, #ff6600);
+    background: -moz-linear-gradient(right, #ffcc00, #ff6600);
+    background: linear-gradient(to right, #ffcc00, #ff6600);
+    transition: all ease 1s;
+}
 /** HEADER CONTENT **/
 
 header h1 {
