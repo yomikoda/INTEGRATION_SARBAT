@@ -491,10 +491,10 @@ main {
     height:215px;
     width:350px;
     float:left;
-    margin-right:40px;
+    margin-right:50px;
 }
 .method:last-child{
-    margin-right:none;
+    margin-right:0;
 }
 .number{
     height:70px; 
@@ -532,13 +532,42 @@ main {
 
 /**CLIENTS SECTIONS **/
 #clients{
-    height:420px;   
+    height:340px; 
+    padding-top:80px;
     background: -webkit-linear-gradient(right, #ffcc00, #ff6600);
     background: -o-linear-gradient(right, #ffcc00, #ff6600);
     background: -moz-linear-gradient(right, #ffcc00, #ff6600);
     background: linear-gradient(to right, #ffcc00, #ff6600);
 }
-
+#clients h2{
+    margin-bottom:60px;
+}
+#clientsnames div{
+    float: left;
+    height:50px;
+    width:185px;
+    margin-right:135px;
+    margin-bottom:60px;
+    position: relative;
+}
+#clientsnames div:nth-child(4),#clientsnames div:nth-child(8){
+    margin-right:0;
+}
+#clientsnames div>img{
+    display: block;
+    position:absolute;
+    top:5%;   
+}
+#clientsnames div:hover>img{
+    cursor:pointer   
+}
+/** ALIGNEMENT OF THE LOGOS LIKE ON THE MOCKUP - BASED ON THE SQUARES -_- **/
+#clientsnames div:first-child>img,#clientsnames div:nth-child(8)>img{
+    left:-12px;
+}
+#clientsnames div:nth-child(3)>img{
+    left:-2px;
+}
 /** Footer **/
 
 footer {
