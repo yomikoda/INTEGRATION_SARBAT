@@ -1,9 +1,5 @@
-
-
-              
-      
-    
-
+$( document ).ready(function() {
+          
             var circle01 = new ProgressBar.Circle('#load01', {
                 to: { color: '#ffcc00' },
                 from: { color: '#ff6600' }, 
@@ -57,3 +53,4 @@
         circle03.animate(-0.6);
         circle04.animate(-0.4);
 
+});

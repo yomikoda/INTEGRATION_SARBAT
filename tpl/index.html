@@ -7,6 +7,7 @@
     <meta name="description" content="SARBAT">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
 
 </head>
 
@@ -323,56 +324,70 @@
 
         <section id="skills" class="center-block">
             <h2>Our Skills</h2>
-            <div class="indiskill">
-                <div class="circlecontainer">
-                    <div id="load01">
+            <div id="allstats">
+                <div class="indiskill">
+                    <div class="circlecontainer">
+                        <div id="load01">
+                        </div>
+                        <div class="minicircle"></div>
                     </div>
-                    <div class="minicircle"></div>
+                    <div class="stats">
+                        <h3>Photoshop</h3>
+                        <p>%</p>
+                        <p>70</p>
+                    </div>
                 </div>
-                <div class="stats">
-                    <h3>Photoshop</h3>
-                    <p>%</p>
-                    <p>70</p>
+                <div class="indiskill">
+                    <div class="circlecontainer">
+                        <div id="load02">
+                        </div>
+                        <div class="minicircle"></div>
+                    </div>
+                    <div class="stats">
+                        <h3>Fireworks</h3>
+                        <p>%</p>
+                        <p>90</p>
+                    </div>
+                </div>
+                <div class="indiskill">
+                    <div class="circlecontainer">
+                        <div id="load03">
+                        </div>
+                        <div class="minicircle"></div>
+                    </div>
+                    <div class="stats">
+                        <h3>HTML</h3>
+                        <p>%</p>
+                        <p>60</p>
+                    </div>
+                </div>
+                <div class="indiskill">
+                    <div class="circlecontainer">
+                        <div id="load04">
+                        </div>
+                        <div class="minicircle"></div>
+                    </div>
+                    <div class="stats">
+                        <h3>WordPress</h3>
+                        <p>%</p>
+                        <p>40</p>
+                    </div>
                 </div>
             </div>
-            <div class="indiskill">
-                <div class="circlecontainer">
-                    <div id="load02">
-                    </div>
-                    <div class="minicircle"></div>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    ...
                 </div>
-                <div class="stats">
-                    <h3>Fireworks</h3>
-                    <p>%</p>
-                    <p>90</p>
-                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="indiskill">
-                <div class="circlecontainer">
-                    <div id="load03">
-                    </div>
-                    <div class="minicircle"></div>
-                </div>
-                <div class="stats">
-                    <h3>HTML</h3>
-                    <p>%</p>
-                    <p>60</p>
-                </div>
-            </div>
-            <div class="indiskill">
-                <div class="circlecontainer">
-                    <div id="load04">
-                    </div>
-                    <div class="minicircle"></div>
-                </div>
-                <div class="stats">
-                    <h3>WordPress</h3>
-                    <p>%</p>
-                    <p>40</p>
-                </div>
-            </div>
-            
-
         </section>
 
 
@@ -466,10 +481,12 @@
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/animate.js"></script>
     <script src="../assets/js/progressbar.js"></script>
     <script src="../assets/js/circle.js"></script>
+    <script src="../assets/js/slider.js"></script>
 </body>
 
 </html>
