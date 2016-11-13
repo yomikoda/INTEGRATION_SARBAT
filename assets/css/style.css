@@ -398,14 +398,12 @@ header h2 {
     height: auto;
     float: left;
     background-color: white;
-    border-left: 2px solid black;
     box-sizing: border-box;
 }
 
 .rectangle:first-child,
 .rectangle:nth-child(2) {
     border-left: none;
-    border-right: 2px solid black;
 }
 
 .rectangle:nth-child(3) {
@@ -413,7 +411,6 @@ header h2 {
 }
 
 .container {
-    border-bottom: 2px solid black;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -422,34 +419,69 @@ header h2 {
 
 /**CONTAINER SIZES**/
 
-.rectangle:first-child>.container:first-child,
-.rectangle:nth-child(4)>.container:first-child {
+#ourwork01{
     height: 375px;
+    background:url(../img/our_work_01.jpg) no-repeat center;
 }
-
-.rectangle:first-child>.container:nth-child(2),
-.rectangle:nth-child(4)>.container:nth-child(2) {
+#ourwork01:hover{
+    background:url(../img/our_work_01_c.jpg) no-repeat center;
+}
+#ourwork02{
     height: 426px;
+    background:url(../img/our_work_02.jpg) no-repeat center;
 }
-
-.rectangle:nth-child(2)>.container:first-child {
+#ourwork02:hover{
+    background:url(../img/our_work_02_c.jpg) no-repeat center;
+}
+#ourwork03{
     height: 315px;
+    background:url(../img/our_work_03.jpg) no-repeat center;   
 }
-
-.rectangle:nth-child(2)>.container:nth-child(2) {
+#ourwork03:hover{
+    background:url(../img/our_work_03_c.jpg) no-repeat center;
+}
+#ourwork04{
     height: 425px;
+    background:url(../img/our_work_04.jpg) no-repeat center; 
 }
-
-.rectangle:nth-child(3)>.container:first-child {
+#ourwork04:hover{
+    background:url(../img/our_work_04_c.jpg) no-repeat center;
+}
+#ourwork05{
     height: 290px;
+    background:url(../img/our_work_05.jpg) no-repeat center;
 }
-
-.rectangle:nth-child(3)>.container:nth-child(2) {
+#ourwork05:hover{
+    background:url(../img/our_work_05_c.jpg) no-repeat center;
+}
+#ourwork06 {
     height: 425px;
+    background:url(../img/our_work_06.jpg) no-repeat center;
 }
-
-
-/**END OF CONTAINER SIZES**/
+#ourwork06:hover{
+    background:url(../img/our_work_06_c.jpg) no-repeat center;
+}
+#ourwork07{
+    height: 375px;
+    background:url(../img/our_work_07.jpg) no-repeat center;
+}
+#ourwork07:hover{
+    background:url(../img/our_work_07_c.jpg) no-repeat center;
+}
+#ourwork08{
+    height: 426px;
+    background:url(../img/our_work_08.jpg) no-repeat center;
+}
+#ourwork08:hover{
+    background:url(../img/our_work_08_c.jpg) no-repeat center;
+}
+.container>div:first-child{
+    transition:all ease 1s;
+}
+.container>div:first-child:hover{
+    transition:all ease 1s;
+}
+/**END OF CONTAINER SIZES and BGS**/
 
 .container:hover>.imghover {
     bottom: 0;
