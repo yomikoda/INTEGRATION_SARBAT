@@ -78,7 +78,7 @@ header {
     z-index: 50;
 }
 
-p {
+p,#mailus>p>a {
     color: #666;
     font-family: NotoSans-Regular;
     font-size: 14px;
@@ -228,6 +228,7 @@ a {
     position: absolute;
     top:50%;
     left:250px;
+    transition: all ease 1s;
     
 }
 
@@ -1005,6 +1006,7 @@ footer {
     transition: all ease 1s;
     position: relative;
     border-right: 1px solid #666;
+    cursor:pointer;
 }
 
 #social>ul>li:hover {
@@ -1052,7 +1054,9 @@ footer {
     width: 225px;
     margin-top: 15px;
 }
-
+#mailus p>a:hover{
+    color:#ff6600;
+}
 form {
     margin-top: 140px;
 }
