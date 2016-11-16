@@ -108,6 +108,20 @@ $(function(){
         $('#mousescroll').css('opacity','1');
     });
     
+    /** CLICKS ON SOCIAL MEDIA **/
+    
+    $('#social>ul>li:first-child').on('click', function(){
+     window.open("http://www.facebook.com");
+    });
+    $('#social>ul>li:nth-child(2)').on('click', function(){
+     window.open("http://www.twitter.com");
+    });
+    $('#social>ul>li:nth-child(3)').on('click', function(){
+     window.open("http://www.google.fr");
+    });
+    $('#social>ul>li:nth-child(4)').on('click', function(){
+     window.open("https://www.behance.net/");
+    });
     
     
     
