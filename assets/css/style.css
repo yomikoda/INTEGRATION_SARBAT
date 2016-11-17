@@ -265,7 +265,7 @@ a {
 header h1 {
     font-family: BrandonGrotesque-Black;
     font-size: 90px;
-    width: 620px;
+    width: 750px;
     text-align: center;
     height: 90px;
     line-height: 90px;
@@ -273,7 +273,7 @@ header h1 {
     top: 360px;
     left: -150%;
     opacity: 0;
-    margin-left: -310px;
+    margin-left: -375px;
     transition: all ease 2s;
 }
 
